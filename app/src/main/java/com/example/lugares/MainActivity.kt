@@ -13,6 +13,7 @@ import com.google.firebase.ktx.Firebase
 import com.example.lugares.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.ktx.auth
 
 
 class MainActivity : AppCompatActivity() {
@@ -47,7 +48,9 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful){
                     Log.d("creando usuario","Registrado")
                     val user = auth.currentUser
+                    if(user != null){
                     actualiza(user)
+                    }
                 } else{
                     Log.d("creando usuario","Fallo")
                     Toast.makeText(baseContext,"Fallo", Toast.LENGTH_LONG).show()
