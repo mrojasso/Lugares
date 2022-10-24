@@ -18,7 +18,7 @@ class AddLugarFragment : Fragment() {
     private val binding get() = _binding!!
     private lateinit var lugarViewModel: LugarViewModel
 
-    override fun onCreate(
+    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
@@ -29,15 +29,9 @@ class AddLugarFragment : Fragment() {
 
     }
 }
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_lugar, container, false)
-    }
 
-    companion object {
+
+    /*companion object {
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
@@ -56,4 +50,4 @@ class AddLugarFragment : Fragment() {
                 }
             }
     }
-}
+}*/

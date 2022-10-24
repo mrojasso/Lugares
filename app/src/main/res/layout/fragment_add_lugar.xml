@@ -8,34 +8,33 @@
     tools:context=".AddLugarFragment">
 
     <TextView
-        android:id="@+id/et_nombre"
+        android:id="@+id/et_nombre2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone" />
+        android:layout_height="60dp"
+        android:text="@string/msg_nombre" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/et_correo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="60dp"
+        android:text="@string/msg_correo" />
+
+    <TextView
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/msg_telefono" />
+
+    <TextView
+        android:id="@+id/et_web"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/msg_web" />
 
     <Button
         android:id="@+id/bt_agregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bt_agregar" />
+
 </LinearLayout>
