@@ -68,6 +68,8 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
+
     public override fun onStart() {
         super.onStart()
         val usuario= auth.currentUser
