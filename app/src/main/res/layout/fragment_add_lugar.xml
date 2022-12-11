@@ -13,6 +13,13 @@
         android:layout_height="60dp"
         android:text="@string/msg_nombre" />
 
+
+    <TextView
+        android:id="@+id/et_nombre3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/msg_nombre" />
+
     <TextView
         android:id="@+id/et_correo"
         android:layout_width="match_parent"
